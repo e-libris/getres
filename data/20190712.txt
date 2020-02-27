@@ -1,0 +1,156 @@
+The Meijer Team appreciates your business
+                  07/12/19
+Your checkout was provided by Taylor
+
+TRANSACTION RESUMED    67
+TERMINAL NUMBER        7
+
+
+      MEIJER SAVINGS
+  mPerks            1.00
+  SPECIALS         13.89
+  COUPONS            .40
+SAVINGS TOTAL     15.29
+
+SALE
+DRUGSTORE
+30065036339   EYE SOLUTION           10.48 +N
+*30045048225  TYLENOL PM EX
+     was     5.19       now           4.99    N
+
+GROCERY
+4011            BANANAS                .71    N
+     1.54 lb @    1 lb /       .46
+4663            ONION LB              1.26    N
+     0.98 lb @    1 lb /     1.29
+4125010231      MILK                  1.39    N
+1340991810      BBQ SAUCE             1.89    N
+2412601280      BUTTERNUT BUNS        1.89    N
+2970000114      MASH POTATO MI        2.09    N
+4060            BROCCOLI              5.40    N
+     2.17 lb @    1 lb /     2.49
+70882003342     CEREAL                2.79    N
+71928366087     BROTH                 2.89    N
+4120010483      POPCORN               2.99    N
+4120010484      POPCORN               2.99    N
+7147900001      ENGLISH MUFFIN
+     2 @ 2.99                         5.98    N
+3800001611      CEREAL                3.19    N
+65131700        BRUS SPROUTS          3.29    N
+3800019871      CEREAL                3.29    N
+7304000405      BEEFSTEAK BREA        3.29    N
+7992711011      PRETZEL SPLITS        3.29    N
+7992711311      PRETZEL RINGS         3.29    N
+2840058929      CORN CHIPS            3.79    N
+71373378171     CUMIN GROUND          3.99    N
+3000001040      QUAKER OATS           4.39    N
+4125056348      MJR LUNCHMEAT         4.49    N
+79452221012     TAZO TEA              4.49    N
+4200087365      BATH TISSUE           4.99      T
+7203001968      SWEET GOODS           4.99    N
+7203002240      SNACK PIE             4.99    N
+7778200787      JVILLE BRATS          4.99    N
+7800015216      CANADA DRY            4.99    FT
+2011541000006 PORK CHOP BI            5.21    N
+4470000881      OM BOLOGNA            5.49    N
+7072301375      VIENNA FRANKS         5.49    N
+24081000000     MEIJER WINGS          5.53    N
+3114237925      CHEESE                5.99    N
+5000030302      COFFEE CREAMER        5.99    N
+27083100000     CHICKEN BREAST        6.26    N
+3700076213      PAPER TOWELS          6.29      T
+21946200000     BERRY MIX             6.43    N
+2031709000006 CAB CUBE STK            6.48    N
+1090000018      ALUMINUM FOIL         9.99      T
+*3600049959     FACIAL TISSUE
+     4 @ 1.25
+     was       6.64        now        5.00     T
+     mPerks Offer
+     => .25 off                       -.25     N
+     mPerks Offer
+     => .25 off                       -.25     N
+     mPerks Offer
+     => .25 off                       -.25     N
+     mPerks Offer
+     => .25 off                       -.25     N
+*70882030602    FRZ HASHBROWNS
+     was       2.49        now        1.79    N
+*7231000847     BIGELOW TEA
+     was       2.99        now        2.19    N
+*85375400303    WAFER
+     was       3.99        now        3.49    N
+*7756700210     POPSICLES
+     was       3.89        now        3.50    N
+*79540413101    FROZEN PIZZA
+     was       5.99        now        4.99    N
+*79540413606    FROZEN PIZZA
+     was       5.99        now        4.99    N
+*2100061144     CHEESE SLICES
+     1 @ 2 / 5.00
+     was       2.99        now        2.50    N
+*2500004748     MINUTE MAID
+     1 @ 4 / 5.00
+     was       1.65        now        1.25    FT
+*3010078458     CRACKERS
+     2 @ 2 / 5.00
+     was       5.58        now        5.00    N
+*60418320109    FRONTERA SKILI
+     was       8.79        now        5.99    N
+*1258779008     KITCHEN BAGS
+     was       7.99        now        6.99     T
+*2840064203     DORITOS
+     1 @ 2 / 7.00
+     was       4.29        now        3.50    N
+*2396478905     S&SBRISKPTY
+     was       7.99        now        6.39    N
+
+ 40&#162; off with coupon B
+     => .40 off                       -.40
+
+             mPerks # -- ********81
+TOTAL
+             IL 8.5% Sales Tax    4.25
+             IL 1.75% Sales Tax   3.32
+             TOTAL TAX            7.57
+             TOTAL              246.37
+PAYMENTS
+  VISA Payment         TENDER   246.37
+XXXXXXXXXXXX5283        (C)
+ APPROVAL CODE 03444C
+ CHASE VISA
+ AID A0000000031010
+ TC D647B635AD397BAB
+ NO CVM REQUIRED
+
+
+              NUMBER OF ITEMS            60
+
+  For information on Meijer return policy
+             visit meijer.com
+
+
+Tx:68   Op:2280767 Tm:7     St:183    08:31:16
+
+
+
+        HEALTH        SAVINGS
+
+         +   Indicates Health Item
+
+         Health Item Total : $11.37
+
+  Monitoring your health spending is now
+   simplified at Meijer. The health item
+  total above represents items (including
+       tax) that may be eligible for
+    reimbursement from your FSA/HSA/HRA
+   plan. Visit www.meijer.com/pharmacy
+         or call (866) 509-9293
+         for more information.
+
+
+
+
+           We value your feedback.
+     Share your experience by emailing:
+        Customer.Feedback@meijer.com

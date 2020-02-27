@@ -1,0 +1,84 @@
+After the MIEJER SAVINGS and TOTAL SAVINGS sections, the receipt is always divided into the following sections
+	SALE			begins the receipt proper	
+	GENERAL MERCHANDISE 	section (if any)
+	DRUGSTORE 		(if any)
+	GROCERY			begins the food receipt, which continues until line TOTAL
+
+
+-A purchase item always begins with a code and is always concluded with a purchase price.  
+
+-A purchase line may span 1-3 lines.
+
+-The conclusion of a logical item is based on the location of a decimal in column 40.  If
+ an item will continue on the next line there will be whitespace after column 35.
+
+-A '*' at the start of a code indicates that an item is on sale.
+
+-Items sold by weight (most produce) contain weight purchased and price/unit weight information following an items purchase price.
+
+-Items with "mPerks", "=>", and "Coupon" indicate price reductions in the items they proceed.  They appear only AFTER the conclusion of a logical item, that is, after a purchase price line.
+
+Line types:
+
+	type  1:	4470000881      OM BOLOGNA            5.99    N	
+	logical item containing all of its information on a single line
+
+	type  2:	*1200050405     PEPSI
+			     was       3.59        now        1.99    FT
+	example of a simple item on sale.  '*' indicates a sale item.  
+	this line type takes 2 lines, with the second line containing
+	the 'was' price, with the 'now' price being the rate at time of sale.
+
+	type  3:	4065            GREEN PEPPER
+			     2 @ .99                          1.98    N
+	not on sale but sold by qty*rate.  always contains '@' on line two
+
+	type  4:	4688            PEPPERS
+			     2 @ 3 / 5.00                     3.34    N
+	not on sale, contains extra rate information.  line two always contains
+	'@' and '/'.
+
+	type  5:	*70882040214    DAIRY CREAMER
+	     		     2 @ 4.09
+			     was       8.78        now        8.18    N
+	3 line logical item.  on sale with qty>1 information.  line two always
+	contains '@', item always concludes on line 3 with 'was'/'now' information.
+
+	type  6:	*4125067795     POTATO CHIPS
+	    		     1 @ 2 / 3.00
+	     		     was       3.29        now        1.50    N
+	on sale with 'x for y'.  line 2 always contains '@' and '/', line 3 always
+	contains 'was'/'now' information
+
+
+After having been processed, a receipt line will have the following format:
+
+	 0   1      2      3     4                5           6	     7
+	[#],[code],[name],[qty],[purchase price],[was price],[rate],[category]
+
+
+Processed "master" receipt output format:
+	-Fields are comma delimited
+
+	-The first character of every record indicates the type of line
+
+	-There are 8 types of lines possible.  
+
+	-Each logical receipt begins with a record of line type 0 and ends with a record of line type 7.  
+	 these appear only at the beginning and end of a receipt
+
+	-Field 5 takes a NULL value when the item is not on sale, in which case rate is the same as purchase price
+	 (for items purchased in qty 1).
+
+Example processed logical receipt:
+
+	0,07/12/19,Taylor
+	1,4120010483,POPCORN,1,2.99,NULL,2.99,12
+	2,*7231000847,BIGELOW TEA,1,2.19,2.99,2.19,1
+	6,*3010078458,CRACKERS,2,5.00,5.58,2/5.00,2
+	7,1.29,.57,10.18
+
+a 0 line indicates the start of a new logical receipt.
+a 7 line indicates the end of a logical receipt.
+
+Meijer receipt codes can be searched on the Meijer website to find the corresponding item page/picture/description most of the time, but not always.  About 30% of searches for codes do not yield results.
