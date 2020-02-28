@@ -47,6 +47,7 @@ static size_t write_data(void *ptr, size_t size, size_t nmemb, void *stream)	{
  ******************************************************************************/ 
 void download(vector<string>& v)	{
 	
+	cout << "a;fkaldjf" << endl;
 	string url, filename, line;
 	bool flag = false;
 	size_t found;
@@ -159,6 +160,7 @@ int main()	{
 		DIR* dr = opendir("./data");
 		// for each txt file in data directory, pass it to proc_receipt().
 		// appends to file master.csv
+		truncate("master.csv", 0);
 		if(dr)	{
 			while((entry = readdir(dr)))	{
 				char filename[strlen(entry->d_name)+8];
