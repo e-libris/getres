@@ -22,15 +22,17 @@
 using namespace std;
 
 /*******************************************************************************
- * data struct for use with write_data
+ * data struct for use with write_data (OLD WRITE FUNCTION)
  ******************************************************************************/
+/*
 struct bufstruct	{
 	char* buffer;
 	size_t size;
 };
+*/
 
 /*******************************************************************************
- * write fuction to pass to libcurl, this will write output to a bufstruct
+ * write fuction to pass to libcurl.
  * 
  * code taken from: https://curl.haxx.se/libcurl/c/url2file.html
  ******************************************************************************/
@@ -47,7 +49,6 @@ static size_t write_data(void *ptr, size_t size, size_t nmemb, void *stream)	{
  ******************************************************************************/ 
 void download(vector<string>& v)	{
 	
-	cout << "a;fkaldjf" << endl;
 	string url, filename, line;
 	bool flag = false;
 	size_t found;
